@@ -1,36 +1,7 @@
-# tictactoe
+# Tictactoe AI with clojure
 
-FIXME: description
+`lein run` runs a default AI vs AI simulation with an empty board.  
+In repl (`lein repl`), you can play against the AI with the function `player`. The game expects you to input the index (0-8) of the square you want to play.  
+You can simulate AI vs AI with different board states with the `play-game` -function. The function takes an initial state and starting turn as parameters. State is given with a string, for example: `"???xxo?o?"` Starting turn is an boolean, true on x's turn.
 
-## Installation
 
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar tictactoe-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
